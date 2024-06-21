@@ -7,9 +7,9 @@ theme = "LoveIt"
 title = "Pythonista"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "vi"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "Tiếng Việt"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 
