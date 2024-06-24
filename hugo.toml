@@ -6,6 +6,9 @@ theme = "LoveIt"
 # website title
 title = "Pythonista"
 
+# determines default content language ["en", "zh-cn", "fr", "pl", ...]
+# 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "vi"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "vi"
 # language name ["English", "简体中文", "Français", "Polski", ...]
@@ -34,7 +37,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Thành NC"
   email = "thanhnc.se@gmail.com"
-  link = ""
+  link = "/me"
 
 # Menu config
 [menu]
@@ -45,7 +48,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "Bài viết"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -54,7 +57,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Tags"
+    name = "Nhãn"
     url = "/tags/"
     title = ""
   [[menu.main]]
@@ -62,7 +65,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "Danh mục"
     url = "/categories/"
     title = ""
 
@@ -96,7 +99,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # title name
       name = "Pythonista"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = ""
+      pre = "<i class='fa-brands fa-python' aria-hidden='true'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name
@@ -281,6 +284,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     RootMe= ""
     Phone = ""
     Email = "thanhnc.se@gmail.com"
+    Tiktok = "pythonista.vn"
     RSS = true # 
 
   #  Page global config
