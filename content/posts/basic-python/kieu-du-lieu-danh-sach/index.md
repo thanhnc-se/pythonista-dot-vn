@@ -262,5 +262,5 @@ Ta có thể kiểm tra độ dài (số lượng các phần tử) của danh s
 
 ```python
 cars = ["bmw", "audi", "toyota", "subaru"]
-print(len(cas))  # 4
+print(len(cars))  # 4
 ```
